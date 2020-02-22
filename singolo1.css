@@ -180,17 +180,18 @@ body{
 /* Section Services */
 
 .services {
-  min-height: 427px;
+  min-height: 494px;
   background-color: #f2f2f2;
-  padding: 67px 40px 0 40px;
+  padding: 0 40px;
   color: #878da9;
 }
 
 .services__header {
   font-size: 3rem;
   font-weight: 900;
-  margin: -8px 0 0 0;
+  margin: 0;
   color: #666d89;
+  padding-top: 59px;
 }
 
 .services__text {
