@@ -127,6 +127,7 @@ body{
   top: 65px;
   height: 333px;
   width: 188px;
+  background-position: 565px -135px;
   z-index: 3;
 }
 
@@ -160,6 +161,7 @@ body{
   left: 60px;
   width: 333px;
   height: 188px;
+  background-position: 454px -118px;
   z-index: 3;
 }
 
