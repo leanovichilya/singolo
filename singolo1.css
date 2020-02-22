@@ -1,0 +1,88 @@
+/*html {*/
+/*  font-family: 'Lato', 'Helvetica', sans-serif;*/
+/*  box-sizing: border-box;*/
+/*  font-size: 10px;*/
+/*}*/
+
+.wrapper {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: #ffffff;
+  background-color: #2d303a;
+  height: 89px;
+}
+
+.header__logo {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.header__text_color {
+  color: red;
+}
+
+.nav__list {
+  display: flex;
+  list-style: none;
+}
+
+.nav__item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.nav__item:hover {
+  color: #f06c64;
+}
+
+.nav__link {
+  color: inherit;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.horizontal-line {
+  height: 6px;
+  width: 100%;
+}
+
+.header__horizontal-line {
+  background-color: #323746;
+}
+
+/* Section slider */
+
+.slider__heading-hidden {
+  font-size: 0;
+}
+
+.slider{
+  background-color: #f06c64;
+  height: 594px;
+}
+
+.slider__wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 53px;
+}
+
+.slider__horizontal-line {
+  background-color: #ea676b;
+}
+
+.slider__arrow__image:hover {
+  filter: hue-rotate(50deg);
+}
+
+/* Section Services */
