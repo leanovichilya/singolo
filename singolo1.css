@@ -244,6 +244,8 @@ body{
 .description__text {
   line-height: 1.6;
   text-align: justify;
+  letter-spacing: 1px;
+  font-weight: 400;
 }
 
 .services__horizontal-line {
