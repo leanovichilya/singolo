@@ -1,3 +1,31 @@
+@font-face{
+  font-family: 'Lato';
+  src: url("assets/fonts/Lato-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("assets/fonts/Lato-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("assets/fonts/Lato-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("assets/fonts/Lato-Black.ttf");
+  font-weight: 900;
+  font-style: normal;
+}
+
 html {
   font-family: 'Lato', 'Helvetica', sans-serif;
   font-size: 10px;
@@ -105,7 +133,7 @@ body{
 }
 
 .vertical-phone__shadow {
-  background-image: url("assets/img/vertical-shadow.png");
+  background-image: url("assets/img/phone/vertical-shadow.png");
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
@@ -113,7 +141,7 @@ body{
 }
 
 .vertical-phone__case {
-  background-image: url("assets/img/phone-vertical.png");
+  background-image: url("assets/img/phone/phone-vertical.png");
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
@@ -121,7 +149,7 @@ body{
 }
 
 .vertical-phone__background {
-  background-image: url("assets/img/bgc-vertical-phone.jpg");
+  background-image: url("assets/img/phone/bgc-vertical-phone.jpg");
   position: absolute;
   left: 14px;
   top: 65px;
@@ -139,7 +167,7 @@ body{
 }
 
 .horizontal-phone__shadow {
-  background-image: url("assets/img/horizontal-shadow.png");
+  background-image: url("assets/img/phone/horizontal-shadow.png");
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
@@ -147,7 +175,7 @@ body{
 }
 
 .horizontal-phone__case {
-  background-image: url("assets/img/phone-horizontal.png");
+  background-image: url("assets/img/phone/phone-horizontal.png");
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
@@ -155,7 +183,7 @@ body{
 }
 
 .horizontal-phone__background {
-  background-image: url("assets/img/bgc-horizontal-phone.jpg");
+  background-image: url("assets/img/phone/bgc-horizontal-phone.jpg");
   position: absolute;
   top: 14px;
   left: 60px;
@@ -248,7 +276,7 @@ body{
   line-height: 1.6;
   text-align: justify;
   letter-spacing: 1px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .services__horizontal-line {
