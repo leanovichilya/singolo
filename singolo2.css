@@ -34,6 +34,7 @@ html {
 
 body {
   margin: 0;
+  color: #666d89;
 }
 
 .wrapper {
@@ -44,7 +45,6 @@ body {
 .portfolio {
   height: 864px;
   background-color: #2d303a;
-  color: #666d89;
   padding: 0 40px;
 }
 
@@ -52,12 +52,14 @@ body {
   font-size: 3rem;
   font-weight: 900;
   margin: 0;
-  padding-top: 68px;
+  padding-top: 61px;
 }
 
 .portfolio__text {
   font-size: 1.8rem;
   font-weight: 300;
+  margin-top: 24px;
+  margin-bottom: 16px;
 }
 
 .portfolio__list {
@@ -72,8 +74,10 @@ body {
 .portfolio__item {
   border: 1px solid #666d89;
   border-radius: 5px;
-  margin-right: 10px;
+  margin-right: 11.5px;
   padding: 5px 6px;
+  line-height: 0.9;
+  letter-spacing: -0.1px;
 }
 
 .portfolio__item:last-child {
@@ -88,6 +92,11 @@ body {
   justify-content: center;
   gap: 20px;
   overflow: hidden;
+  margin-top: 19px;
+}
+
+.portfolio__preview {
+  background-color: #464b5e;
 }
 
 .horizontal-line {
@@ -99,3 +108,92 @@ body {
   background-color: #323746;
 }
 
+/* Section about-us */
+.about-us {
+  background-color: #f2f2f2;
+  padding: 0 40px;
+  height: 728px;
+}
+
+.about-us__header {
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 0;
+  padding-top: 60px;
+}
+
+.about-us__text {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-top: 19px;
+  margin-bottom: 45px;
+  line-height: 1.7;
+  letter-spacing: 0px;
+  text-align: justify;
+}
+
+.about-us__peoples {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile {
+  max-width: 300px;
+  height: auto;
+}
+
+.profile__name {
+  font-size: 1.8rem;
+  font-weight: 900;
+  margin-top: 14px;
+  letter-spacing: -0.2px;
+}
+
+.profile__description {
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: justify;
+  letter-spacing: -0.3px;
+  line-height: 1.6;
+  margin-top: -7.2px;
+  word-spacing: 1.8px;
+}
+
+.social-networks__list {
+  list-style: none;
+  display: flex;
+  justify-content: left;
+  align-self: center;
+  margin-top: 25px;
+  padding: 0;
+}
+
+.social-networks__item {
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid #666d89;
+  border-radius: 50%;
+  margin-right: 8.1px;
+}
+
+.social-networks__item-facebook {
+background-image: url("assets/img/social_networks/facebook.png");
+}
+
+.social-networks__item-google {
+background-image: url("assets/img/social_networks/google+.png");
+}
+
+.social-networks__item-twitter {
+background-image: url("assets/img/social_networks/twitter.png");
+}
+
+.social-networks__item-linkedin {
+background-image: url("assets/img/social_networks/linkedin.png");
+}
+
+.about-us__horizontal-line {
+background-color: #fff;
+}
