@@ -85,6 +85,7 @@ body{
 
 .nav__item:hover {
   color: #f06c64;
+  transition: 0.5s;
 }
 
 .nav__link, .header__link {
@@ -205,6 +206,7 @@ body{
 .slider__arrow__image:hover {
   filter: hue-rotate(50deg);
   cursor: pointer;
+  transition: .3s;
 }
 
 /* Section Services */
