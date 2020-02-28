@@ -223,19 +223,23 @@ body{
   font-weight: 900;
   margin: 0;
   color: #666d89;
-  padding-top: 59px;
+  letter-spacing: -0.2px;
+  padding-top: 59.7px;
 }
 
 .services__text {
   font-size: 1.8rem;
-  line-height: 1.8;
-  margin-top: 18px;
+  line-height: 1.7;
+  margin-top: 19px;
+  font-weight: 300;
+  text-align: justify;
 }
 
 .services__wrapper {
   display: flex;
   flex-wrap: wrap;
   width: 940px;
+  margin-top: 21px;
 }
 
 .services__wrapper:nth-child(3n) {
@@ -245,9 +249,9 @@ body{
 .services__advantage {
   display: flex;
   justify-content: space-between;
-  width: 30%;
+  width: 300px;
   height: 96px;
-  margin-right: 38px;
+  margin-right: 20px;
   padding-top: 27px;
 }
 
@@ -275,10 +279,11 @@ body{
 }
 
 .description__text {
-  line-height: 1.6;
+  line-height: 1.8;
   text-align: justify;
-  letter-spacing: 1px;
-  font-weight: 300;
+  letter-spacing: 0px;
+  font-weight: 400;
+  margin-top: -4.3px;
 }
 
 .services__horizontal-line {
