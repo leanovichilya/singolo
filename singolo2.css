@@ -193,7 +193,7 @@ body {
 }
 
 .social-networks__item:hover {
-  transform: translateY(-1px);
+  transform: translateY(-5px);
   transition: 0.5s;
 }
 
