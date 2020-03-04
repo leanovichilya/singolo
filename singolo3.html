@@ -10,6 +10,7 @@
 </head>
 <body>
 <div class="wrapper">
+  <!--  Start Section contacts -->
   <section class="contacts">
     <h2 class="contacts__header">Get a Quote</h2>
     <p class="contacts__description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis,
@@ -17,29 +18,46 @@
       commodo, tortor mauris condimentum nibh.</p>
     <div class="contacts__container">
       <form action="action.php" class="contacts__form">
-        <input class="contacts__form-field" type="text" placeholder="Name(Required) required">
-        <input class="contacts__form-field" type="email" placeholder="Email(Required) required">
+        <input class="contacts__form-field" type="text" placeholder="Name(Required)" required>
+        <input class="contacts__form-field" type="email" placeholder="Email(Required)" required>
         <input class="contacts__form-field" type="text" placeholder="Subject">
-        <textarea class="contacts__form-field" name="" id="" cols="30" rows="10" placeholder="Describe your project in detail..."></textarea>
+        <textarea class="contacts__form-field" name="" id="" cols="30" rows="30"
+                  placeholder="Describe your project in detail..."></textarea>
       </form>
-      <div class="information">
-        <h3 class="information__header">Contact Information</h3>
-        <p class="information__text">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae
-          aliquam
-          tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et
-          consequat felis.
-        </p>
-        <div class="">
-          <p><span class="information__address"></span>Elm St. 14/05 Lost City</p>
-          <p><span class="information__phone"></span>03528 331 86 35</p>
-          <p><span class="information__email"></span>info@singolo.com</p>
+      <div class="information__wrapper">
+        <div class="information">
+          <h3 class="information__header">Contact Information</h3>
+          <p class="information__text">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae
+            aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet
+            turpis, et
+            consequat felis.
+          </p>
+          <p class="information__text information__text-location">Elm St. 14/05 Lost City</p>
+          <p class="information__text information__text-phone">03528 331 86 35</p>
+          <p class="information__text information__text-mail">info@singolo.com</p>
         </div>
+        <button class="information__button">Send</button>
       </div>
     </div>
   </section>
+  <!--  End Section contacts -->
+  <div class="contacts__horizontal-line horizontal-line"></div>
+  <!-- Start Footer -->
   <footer class="footer">
-
+    <div class="footer__copyright">
+      <p class="footer__copyright-text">
+        <span class="symbol__copyright">©</span>
+        Copyright 2013
+      </p>
+    </div>
+    <div class="footer__social-networks--wrapper">
+      <div class="footer__social-networks footer__social-networks--facebook"></div>
+      <div class="footer__social-networks footer__social-networks--google"></div>
+      <div class="footer__social-networks footer__social-networks--twitter"></div>
+      <div class="footer__social-networks footer__social-networks--linkedin"></div>
+    </div>
   </footer>
+  <!-- End Footer -->
 </div>
 </body>
 </html>
