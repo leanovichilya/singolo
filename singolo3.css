@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'Lato';
+  src: url("assets/fonts/Lato-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("assets/fonts/Lato-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("assets/fonts/Lato-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("assets/fonts/Lato-Black.ttf");
+  font-weight: 900;
+  font-style: normal;
+}
+
+html {
+  font-family: 'Lato', 'Helvetica', sans-serif;
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #666d89;
+}
+
+.wrapper {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.contacts {
+  height: 648px;
+  background-color: #f06c64;
+  padding: 0 40px;
+  color: #ffffff;
+}
+
+.contacts__header {
+  margin: 0;
+  padding-top: 67px;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.contacts__description {
+  margin: 33px 0 52px 0;
+  font-weight: 300;
+}
+
+.contacts__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts__form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 619px;
+}
+
+.contacts__form-field {
+  width: 100%;
+  height: 38px;
+  margin-bottom: 16px;
+  padding-left: 15px;
+
+  line-height: 1px;
+
+  font-size: 20px;
+  background-color: #D6564F;
+
+  border: 0;
+  border-radius: 5px;
+}
+
+.contacts__form-field::placeholder {
+  color: #f48c8f;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 0px;
+}
+
+.contacts__form-field:last-child {
+  min-height: 202px;
+  margin-bottom: 0;
+
+  resize: none;
+}
+
+.information {
+  width: 300px;
+}
