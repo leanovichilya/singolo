@@ -64,7 +64,7 @@ body {
 }
 
 .contacts__description {
-  margin: 21px 0 45px 0;
+  margin: 21px 0 46px 0;
   font-weight: 300;
   font-size: 1.8rem;
   text-align: justify;
@@ -84,34 +84,41 @@ body {
 
 .contacts__form-field {
   width: 100%;
-  height: 37px;
-  font-size: 1.4rem;
-  margin-bottom: 16px;
+  height: 38px;
 
-  padding: 0 0 1px 14px;
+  padding: 0;
+  margin-top: -0.3px;
+  margin-bottom: 16px;
 
   background-color: #D6564F;
   color: #fff;
+  font-size: 1.4rem;
 
   border: 0;
   border-radius: 5px;
-}
 
-.contacts__form-field::placeholder {
-  padding-top: 1px;
-
-  color: #f48c8f;
-
-  font-size: 1.2rem;
-  font-weight: 400;
+  line-height: 0.7;
+  letter-spacing: 0.3px;
+  word-spacing: -1.9px;
 }
 
 .contacts__form-field:last-child {
   min-height: 202px;
   margin-bottom: 0;
-  padding-top: 11px;
-
+  padding: 0;
   resize: none;
+}
+
+.contacts__form-field::placeholder {
+  vertical-align: center;
+  text-align: justify;
+
+  padding-top: 14px;
+  padding-left: 14px;
+  color: #f48c8f;
+
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 
 .information__wrapper {
@@ -124,35 +131,42 @@ body {
 .information__header {
   font-size: 1.8rem;
   font-weight: 900;
-  margin: 0;
+  margin: -1px 0 0 0;
+  letter-spacing: -0.1px;
 }
 
 .information__text {
   font-size: 1.2rem;
   font-weight: 400;
   text-align: justify;
+  margin-top: 9.9px;
+  line-height: 1.8;
+  word-spacing: -0.3px;
 }
 
 .information__text-location {
   background-image: url("assets/img/icons/location.png");
-  background-position: 0 2px;
+  background-position: 4px 5px;
+  margin-top: 23px;
 }
 
 .information__text-phone {
   background-image: url("assets/img/icons/phone.png");
-  background-position: 0 2px;
+  background-position: 1px 4px;
+  margin-top: -11px;
 }
 
 .information__text-mail {
   background-image: url("assets/img/icons/mail.png");
-  background-position: 0 4px;
+  background-position: 0px 8px;
+  margin-top: -12px;
 }
 
 .information__text-location,
 .information__text-phone,
 .information__text-mail {
   background-repeat: no-repeat;
-  padding-left: 20px;
+  padding-left: 23px;
 }
 
 .information__button {
@@ -192,12 +206,13 @@ body {
 .footer__copyright-text {
   font-family: "Myriad Pro Regular", Helvetica, "sans-serif";
   font-size: 1.2rem;
-  margin-left: 39px;
+  margin-left: 43.3px;
+  letter-spacing: 0.2px;
 }
 
 .footer__social-networks--wrapper {
   display: flex;
-  margin-right: 40px;
+  margin-right: 39px;
 }
 
 .footer__social-networks--facebook {
@@ -221,7 +236,7 @@ body {
   height: 32px;
   background-repeat: no-repeat;
   background-position: center center;
-  margin-right: 8px;
+  margin-right: 6px;
 
   border: #878da9 solid 1px;
   border-radius: 50%;
