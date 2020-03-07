@@ -57,9 +57,8 @@ body{
 .header__logo {
   font-size: 2.5rem;
   text-transform: uppercase;
-  margin-left: -1px;
-  margin-top: 16px;
-  letter-spacing: -0.2px;
+  margin-top: 14.8px;
+  letter-spacing: -0.5px;
 }
 
 .header__text_color {
@@ -74,7 +73,7 @@ body{
   display: flex;
   justify-content: space-between;
   list-style: none;
-  margin-left: -31px;
+  margin-left: -30.3px;
   margin-top: 19px;
   letter-spacing: -0.2px;
 }
@@ -140,7 +139,7 @@ body{
   height: 481px;
   width: 240px;
   position: relative;
-  margin: 0 18px 0 0;
+  margin: 0 18px 0 1px;
 }
 
 .vertical-phone__shadow {
@@ -162,7 +161,7 @@ body{
 .vertical-phone__background {
   background-image: url("assets/img/phone/bgc-vertical-phone.jpg");
   position: absolute;
-  left: 14px;
+  left: 15px;
   top: 65px;
   height: 333px;
   width: 188px;
@@ -171,10 +170,10 @@ body{
 }
 
 .horizontal-phone {
-  width: 481px;
+  width: 483px;
   height: 240px;
   position: relative;
-  margin: -3px -3px -2px 1px;
+  margin: -3px -3px -2px 3px;
 }
 
 .horizontal-phone__shadow {
@@ -186,15 +185,16 @@ body{
 }
 
 .horizontal-phone__case {
-  background-image: url("assets/img/phone/phone-horizontal.png");
+  background-image: url(assets/img/phone/phone-horizontal.png);
   background-repeat: no-repeat;
+  margin: 1px 0 0 -1px;
   height: 100%;
   width: 100%;
   z-index: 2;
 }
 
 .horizontal-phone__background {
-  background-image: url("assets/img/phone/bgc-horizontal-phone.jpg");
+  background-image: url(assets/img/phone/bgc-horizontal-phone.jpg);
   position: absolute;
   top: 14px;
   left: 60px;
@@ -279,6 +279,8 @@ body{
   width: 220px;
   font-size: 1.2rem;
   margin-left: 22px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .description__header {
@@ -286,7 +288,7 @@ body{
   font-size: 1.8rem;
   font-weight: 900;
   line-height: 0.7;
-  letter-spacing: -0.2px;
+  letter-spacing: -0.1px;
 }
 
 .description__text {
@@ -295,9 +297,6 @@ body{
   letter-spacing: 0px;
   font-weight: 400;
   margin-top: -4.2px;
-  height: 58px;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .services__horizontal-line {
@@ -318,7 +317,7 @@ body{
   font-size: 3rem;
   font-weight: 900;
   margin: 0;
-  padding-top: 61px;
+  padding-top: 60px;
 }
 
 .portfolio__text {
@@ -437,8 +436,8 @@ body{
   font-weight: 400;
   text-align: justify;
   letter-spacing: -0.3px;
-  line-height: 1.6;
-  margin-top: -7.2px;
+  line-height: 1.7;
+  margin-top: -8.9px;
   word-spacing: 1.8px;
 }
 
@@ -504,7 +503,7 @@ body{
 
 .contacts__header {
   margin: 0;
-  padding-top: 60px;
+  padding-top: 59px;
   font-size: 3rem;
   font-weight: 900;
 }
@@ -665,12 +664,13 @@ body{
   font-family: "Myriad Pro Regular", Helvetica, "sans-serif";
   font-size: 1.2rem;
   margin-left: 43.3px;
-  letter-spacing: 0.2px;
+  letter-spacing: -0.2px;
 }
 
 .footer__social-networks--wrapper {
   display: flex;
   margin-right: 39px;
+  margin-top: -3px;
 }
 
 .footer__social-networks--facebook {
