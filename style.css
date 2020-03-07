@@ -640,6 +640,7 @@ body{
   background-color: #d6564f;
   color: #f48c8f;
   cursor: pointer;
+  transition: 0.4s;
 }
 
 .horizontal-line {
