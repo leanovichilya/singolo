@@ -161,11 +161,11 @@ body{
 .vertical-phone__background {
   background-image: url("assets/img/phone/bgc-vertical-phone.jpg");
   position: absolute;
-  left: 15px;
+  left: 14px;
   top: 65px;
   height: 333px;
   width: 188px;
-  background-position: 565px -135px;
+  background-position: 566px -135px;
   z-index: 3;
 }
 
@@ -196,11 +196,11 @@ body{
 .horizontal-phone__background {
   background-image: url(assets/img/phone/bgc-horizontal-phone.jpg);
   position: absolute;
-  top: 14px;
-  left: 60px;
+  top: 15px;
+  left: 59px;
   width: 333px;
   height: 188px;
-  background-position: 454px -118px;
+  background-position: 455px -119px;
   z-index: 3;
 }
 
@@ -261,30 +261,33 @@ body{
   display: flex;
   justify-content: space-between;
   width: 300px;
-  height: 96px;
-  margin-right: 20px;
+  height: 97px;
+  margin-right: 19px;
   padding-top: 26px;
 }
 
 .services__advantage:nth-child(3n) {
   margin-right: 0;
+  margin-left: 1px;
 }
 
 .services__image {
   height: 59px;
   width: auto;
+  margin-left: 1px;
 }
 
 .services__description {
   width: 220px;
   font-size: 1.2rem;
-  margin-left: 22px;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .description__header {
   margin-top: 1px;
+  margin-bottom: 13px;
+  margin-left: 1px;
   font-size: 1.8rem;
   font-weight: 900;
   line-height: 0.7;
@@ -296,7 +299,7 @@ body{
   text-align: justify;
   letter-spacing: 0px;
   font-weight: 400;
-  margin-top: -4.2px;
+  margin-left: 1px;
 }
 
 .services__horizontal-line {
@@ -307,7 +310,7 @@ body{
 
 /* Start Section portfolio */
 .portfolio {
-  height: 864px;
+  height: 863px;
   background-color: #2d303a;
   padding: 0 40px;
   color: #666d89;
@@ -435,10 +438,10 @@ body{
   font-size: 1.2rem;
   font-weight: 400;
   text-align: justify;
-  letter-spacing: -0.3px;
+  letter-spacing: -0.2px;
   line-height: 1.7;
-  margin-top: -8.9px;
-  word-spacing: 1.8px;
+  margin-top: -8.2px;
+  word-spacing: 1.3px;
 }
 
 .social-networks__list {
@@ -503,7 +506,7 @@ body{
 
 .contacts__header {
   margin: 0;
-  padding-top: 59px;
+  padding-top: 60px;
   font-size: 3rem;
   font-weight: 900;
 }
@@ -531,7 +534,7 @@ body{
   width: 100%;
   height: 38px;
 
-  padding: 0;
+  padding: 0 0 0 14px;
   margin-top: -0.3px;
   margin-bottom: 16px;
 
@@ -548,8 +551,9 @@ body{
 }
 
 .contacts__form-field:last-child {
-  min-height: 202px;
+  min-height: 188px;
   margin-bottom: 0;
+  padding-top: 14px;
   resize: none;
 }
 
@@ -557,7 +561,6 @@ body{
   vertical-align: center;
   text-align: justify;
 
-  padding: 14px 0 0 14px;
   color: #f48c8f;
 
   font-size: 1.2rem;
@@ -664,14 +667,13 @@ body{
 .footer__copyright-text {
   font-family: "Myriad Pro Regular", Helvetica, "sans-serif";
   font-size: 1.2rem;
-  margin-left: 43.3px;
+  margin-left: 42.7px;
   letter-spacing: -0.2px;
 }
 
 .footer__social-networks--wrapper {
   display: flex;
   margin-right: 39px;
-  margin-top: -3px;
 }
 
 .footer__social-networks--facebook {
