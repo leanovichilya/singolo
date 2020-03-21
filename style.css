@@ -1,27 +1,27 @@
-@font-face{
+@font-face {
   font-family: 'Lato';
-  src: url("assets/fonts/Lato-Light.ttf");
+  src: url('assets/fonts/Lato-Light.ttf');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Lato';
-  src: url("assets/fonts/Lato-Regular.ttf");
+  src: url('assets/fonts/Lato-Regular.ttf');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Lato';
-  src: url("assets/fonts/Lato-Bold.ttf");
+  src: url('assets/fonts/Lato-Bold.ttf');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Lato';
-  src: url("assets/fonts/Lato-Black.ttf");
+  src: url('assets/fonts/Lato-Black.ttf');
   font-weight: 900;
   font-style: normal;
 }
@@ -32,7 +32,7 @@ html {
   box-sizing: border-box;
 }
 
-body{
+body {
   margin: 0;
 }
 
@@ -42,6 +42,8 @@ body{
 }
 
 .header {
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -52,6 +54,8 @@ body{
   min-height: 89px;
 
   font-weight: 700;
+
+  z-index: 4;
 }
 
 .header__logo {
@@ -97,10 +101,15 @@ body{
   transition: 0.5s;
 }
 
-.nav__link, .header__link {
+.nav__link,
+.header__link {
   color: inherit;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.nav__link-active {
+  color: #f06c64;
 }
 
 .horizontal-line {
@@ -113,7 +122,7 @@ body{
 }
 
 /* Section slider */
-.slider{
+.slider {
   background-color: #f06c64;
   min-height: 594px;
   padding: 0 40px 0 40px;
@@ -136,14 +145,14 @@ body{
 }
 
 .vertical-phone {
-  height: 481px;
   width: 240px;
+  height: 481px;
   position: relative;
   margin: 0 18px 0 1px;
 }
 
 .vertical-phone__shadow {
-  background-image: url("assets/img/phone/vertical-shadow.png");
+  background-image: url('assets/img/phone/vertical-shadow.png');
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
@@ -151,7 +160,7 @@ body{
 }
 
 .vertical-phone__case {
-  background-image: url("assets/img/phone/phone-vertical.png");
+  background-image: url('assets/img/phone/phone-vertical.png');
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
@@ -159,12 +168,12 @@ body{
 }
 
 .vertical-phone__background {
-  background-image: url("assets/img/phone/bgc-vertical-phone.jpg");
+  background-image: url('assets/img/phone/bgc-vertical-phone.jpg');
   position: absolute;
-  left: 14px;
-  top: 65px;
   height: 333px;
   width: 188px;
+  left: 14px;
+  top: 65px;
   background-position: 566px -135px;
   z-index: 3;
 }
@@ -177,7 +186,7 @@ body{
 }
 
 .horizontal-phone__shadow {
-  background-image: url("assets/img/phone/horizontal-shadow.png");
+  background-image: url('assets/img/phone/horizontal-shadow.png');
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
@@ -204,6 +213,10 @@ body{
   z-index: 3;
 }
 
+.vertical-phone__background-hidden {
+  display: none;
+}
+
 .slider__arrow-right {
   margin-top: 3px;
   margin-left: 5px;
@@ -217,7 +230,7 @@ body{
   filter: brightness(50%);
   transform: scale(1.2, 1.2);
   cursor: pointer;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 /* Section Services */
@@ -352,7 +365,7 @@ body{
   margin-right: 0;
 }
 
-.portfolio__item-tags:hover{
+.portfolio__item-tags:hover {
   color: #fff;
   border-color: #fff;
   cursor: pointer;
@@ -461,7 +474,6 @@ body{
   border: 1px solid #666d89;
   border-radius: 50%;
   margin-right: 8.1px;
-
 }
 
 .social-networks__item:hover {
@@ -475,19 +487,19 @@ body{
 }
 
 .social-networks__item-facebook {
-  background-image: url("assets/img/social_networks/facebook.png");
+  background-image: url('assets/img/social_networks/facebook.png');
 }
 
 .social-networks__item-google {
-  background-image: url("assets/img/social_networks/google+.png");
+  background-image: url('assets/img/social_networks/google+.png');
 }
 
 .social-networks__item-twitter {
-  background-image: url("assets/img/social_networks/twitter.png");
+  background-image: url('assets/img/social_networks/twitter.png');
 }
 
 .social-networks__item-linkedin {
-  background-image: url("assets/img/social_networks/linkedin.png");
+  background-image: url('assets/img/social_networks/linkedin.png');
 }
 
 .about-us__horizontal-line {
@@ -538,7 +550,7 @@ body{
   margin-top: -0.3px;
   margin-bottom: 16px;
 
-  background-color: #D6564F;
+  background-color: #d6564f;
   color: #fff;
   font-size: 1.4rem;
 
@@ -591,19 +603,19 @@ body{
 }
 
 .information__text-location {
-  background-image: url("assets/img/icons/location.png");
+  background-image: url('assets/img/icons/location.png');
   background-position: 4px 5px;
   margin-top: 23px;
 }
 
 .information__text-phone {
-  background-image: url("assets/img/icons/phone.png");
+  background-image: url('assets/img/icons/phone.png');
   background-position: 1px 4px;
   margin-top: -11px;
 }
 
 .information__text-mail {
-  background-image: url("assets/img/icons/mail.png");
+  background-image: url('assets/img/icons/mail.png');
   background-position: 0px 8px;
   margin-top: -12px;
 }
@@ -665,7 +677,7 @@ body{
 }
 
 .footer__copyright-text {
-  font-family: "Myriad Pro Regular", Helvetica, "sans-serif";
+  font-family: 'Myriad Pro Regular', Helvetica, 'sans-serif';
   font-size: 1.2rem;
   margin-left: 42.7px;
   letter-spacing: -0.2px;
@@ -677,19 +689,19 @@ body{
 }
 
 .footer__social-networks--facebook {
-  background-image: url("assets/img/social_networks/facebook.png");
+  background-image: url('assets/img/social_networks/facebook.png');
 }
 
 .footer__social-networks--google {
-  background-image: url("assets/img/social_networks/google+.png");
+  background-image: url('assets/img/social_networks/google+.png');
 }
 
 .footer__social-networks--twitter {
-  background-image: url("assets/img/social_networks/twitter.png");
+  background-image: url('assets/img/social_networks/twitter.png');
 }
 
 .footer__social-networks--linkedin {
-  background-image: url("assets/img/social_networks/linkedin.png");
+  background-image: url('assets/img/social_networks/linkedin.png');
 }
 
 .footer__social-networks {

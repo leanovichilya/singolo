@@ -11,16 +11,16 @@
 <body>
 <div class="wrapper">
   <!--  Start header -->
-  <header class="header">
-    <h1 class="header__logo"><a class="header__link" href="singolo1.html">Singolo</a><span
+  <header class="header" id="home">
+    <h1 class="header__logo"><a class="header__link" href="index.html">Singolo</a><span
             class="header__text_color">*</span></h1>
     <nav class="nav">
       <ul class="nav__list">
-        <li class="nav__item"><a class="nav__link" href="singolo1.html">Home</a></li>
-        <li class="nav__item"><a class="nav__link" href="#">Services</a></li>
-        <li class="nav__item"><a class="nav__link" href="#">Portfolio</a></li>
-        <li class="nav__item"><a class="nav__link" href="#">About</a></li>
-        <li class="nav__item"><a class="nav__link" href="#">Contact </a></li>
+        <li class="nav__item"><a class="nav__link nav__link-active" href="#home">Home</a></li>
+        <li class="nav__item"><a class="nav__link" href="#services">Services</a></li>
+        <li class="nav__item"><a class="nav__link" href="#portfolio">Portfolio</a></li>
+        <li class="nav__item"><a class="nav__link" href="#about-us">About</a></li>
+        <li class="nav__item"><a class="nav__link" href="#contacts">Contact </a></li>
       </ul>
     </nav>
   </header>
@@ -33,14 +33,14 @@
       <div class="slider__arrow-left">
         <img src="assets/img/buttons/arrow-left.png" alt="arrow-left" class="slider__arrow__image">
       </div>
-      <div class="vertical-phone">
+      <div class="vertical-phone phone__wrapper">
         <div class="vertical-phone__shadow">
           <div class="vertical-phone__case">
-            <div class="vertical-phone__background"></div>
+              <div class="vertical-phone__background"></div>
           </div>
         </div>
       </div>
-      <div class="horizontal-phone">
+      <div class="horizontal-phone phone__wrapper">
         <div class="horizontal-phone__shadow">
           <div class="horizontal-phone__case">
             <div class="horizontal-phone__background"></div>
@@ -55,7 +55,7 @@
   <!--  End section Slider -->
   <div class="slider__horizontal-line horizontal-line"></div>
   <!--  Start section Services -->
-  <section class="services">
+  <section class="services" id="services">
     <h2 class="services__header">Our Services</h2>
     <p class="services__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non
       commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus
@@ -122,7 +122,7 @@
   <div class="services__horizontal-line horizontal-line"></div>
 
   <!-- Start section Portfolio -->
-  <section class="portfolio">
+  <section class="portfolio" id="portfolio">
     <h2 class="portfolio__header">Portfolio</h2>
     <p class="portfolio__text">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem
       nec elit.</p>
@@ -150,7 +150,7 @@
   <!-- End section Portfolio -->
   <div class="portfolio__horizontal-line horizontal-line"></div>
   <!-- Start section About-us -->
-  <section class="about-us">
+  <section class="about-us" id="about-us">
     <h2 class="about-us__header">About Us</h2>
     <p class="about-us__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non
       commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus
@@ -200,7 +200,7 @@
   <!-- End section About-us -->
   <div class="about-us__horizontal-line horizontal-line"></div>
   <!--  Start Section contacts -->
-  <section class="contacts">
+  <section class="contacts" id="contacts">
     <h2 class="contacts__header">Get a Quote</h2>
     <p class="contacts__description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis,
       non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus
@@ -252,5 +252,8 @@
   </footer>
   <!-- End Footer -->
 </div> <!-- END Wrapper -->
+<script src="script.js">
+
+</script>
 </body>
 </html>
